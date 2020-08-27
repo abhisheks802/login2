@@ -9,8 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body onload="load()">
-<div id="loading"></div>
+<body>
 <div class="container">
     <div class="main-content">
         <div class="heading">
@@ -43,9 +42,5 @@
     var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
     $("html, body").css({"width":w,"height":h});
 });
-     var preloader = document.getElementById("loading");
-    function load() {
-        preloader.style.display = 'none';
-    }
 </script>
 </html>
