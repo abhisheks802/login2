@@ -9,13 +9,6 @@ body{
     font-family: 'Acme', sans-serif;
     height: 100vh;
 }
-#loading{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: white url("yo.gif") no-repeat center;
-    z-index: 20;
-}
 a{
     color: black;
 }
