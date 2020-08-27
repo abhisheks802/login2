@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Login</title>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="main-content">
+        <div class="heading">
+            <h1><u>LOGIN</u></h1>
+        </div>
+        <div class="name">
+            <input type="text" placeholder="Email">
+            <input type="password" placeholder="Password">
+        </div>
+        <div>
+            <input type="checkbox" class="check">
+            <label>Remember Me</label>
+        </div>
+        <div>
+            <button type="button">Login</button>
+        </div>
+        <div class="social">
+            <ul class="box">
+               <li><a href="https://www.facebook.com/profile.php?id=100000985955408"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+               <li><a href="https://github.com/abhisheks802"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+               <li><a href="https://www.instagram.com/abhikhushiabhigum/"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    $(function() {
+    var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+    $("html, body").css({"width":w,"height":h});
+});
+</script>
+</html>
